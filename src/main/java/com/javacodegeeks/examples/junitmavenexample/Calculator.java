@@ -36,4 +36,12 @@ public class Calculator implements ICalculator {
 
 		return result;
 	}
+	//Bug für Findbugs
+	public void bug(){
+		    // ...
+			Object einObjekt = new Object();
+			// ...
+			if (einObjekt == null)
+				System.out.println("Hash-Code= " + einObjekt.hashCode());
+	}
 }
