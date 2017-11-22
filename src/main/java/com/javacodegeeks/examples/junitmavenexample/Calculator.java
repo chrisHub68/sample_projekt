@@ -4,6 +4,11 @@ public class Calculator implements ICalculator {
 
 	@Override
 	public int sum(int a, int b) {
+		    // ...
+			Object einObjekt = new Object();
+			// ...
+			if (einObjekt == null)
+				System.out.println("Hash-Code= " + einObjekt.hashCode());
 		return a + b;
 	}
 
