@@ -4,7 +4,7 @@ public class Calculator implements ICalculator {
 
 	@Override
 	public int sum(int a, int b) {
-		return a - b;
+		return a + b;
 	}
 
 	@Override
@@ -38,10 +38,6 @@ public class Calculator implements ICalculator {
 	}
 	//Bug für Findbugs
 	public void bug(){
-		    // ...
-			Object einObjekt = new Object();
-			// ...
-			if (einObjekt == null)
-				System.out.println("Hash-Code= " + einObjekt.hashCode());
+
 	}
 }
