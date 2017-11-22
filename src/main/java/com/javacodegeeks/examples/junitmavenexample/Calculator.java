@@ -4,7 +4,7 @@ public class Calculator implements ICalculator {
 
 	@Override
 	public int sum(int a, int b) {
-		return a + b;
+		return a - b;
 	}
 
 	@Override
@@ -19,7 +19,7 @@ public class Calculator implements ICalculator {
 
 	@Override
 	public int divison(int a, int b) throws Exception {
-		if (b == 1) {
+		if (b == 0) {
 			throw new Exception("Divider can't be zero");
 		}
 
