@@ -4,10 +4,11 @@ public class Calculator implements ICalculator {
 
 	@Override
 	public int sum(int a, int b) {
+		String be = "bob";
 		String aString = "bob";
-	 	aString.replace('b', 'p');
-		if(aString.equals("pop")){
-
+	 	be.replace('b', 'p');
+		if(be.equals("pop")){
+			System.out.println("Wahr");
 		}
 
 		return a + b;
