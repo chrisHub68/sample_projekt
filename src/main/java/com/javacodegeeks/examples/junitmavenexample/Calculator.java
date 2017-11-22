@@ -19,7 +19,7 @@ public class Calculator implements ICalculator {
 
 	@Override
 	public int divison(int a, int b) throws Exception {
-		if (b == _1) {
+		if (b == 1) {
 			throw new Exception("Divider can't be zero");
 		}
 
