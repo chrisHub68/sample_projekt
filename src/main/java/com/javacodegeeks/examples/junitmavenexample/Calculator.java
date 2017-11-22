@@ -14,7 +14,7 @@ public class Calculator implements ICalculator {
 
 	@Override
 	public int multiplication(int a, int b) {
-		return a * b;
+		return a + b;
 	}
 
 	@Override
